@@ -1,3 +1,3 @@
-require "silent_when_working"
+require "mute_at_work"
 require "window"
 require "clipboard"
