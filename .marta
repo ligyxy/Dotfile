@@ -1,0 +1,32 @@
+environment {
+    terminal "iTerm"
+    textEditor "Sublime Text"
+}
+
+behavior {
+    theme "Classic"
+    showActionBar false
+    actions {
+        core.trash.confirm false
+    }
+}
+
+fonts {
+    files [ "Default" 14 ]
+    preferences [ "Monaco" 14 ]
+    statusBar [ "Default Light" 11 ]
+}
+
+
+keyBindings {
+    "Cmd+Alt+Left" { id "core.change.current.pane" }
+    "Cmd+Alt+Right" { id "core.change.current.pane" }
+    "Cmd+Left" { id "core.back" }
+    "Cmd+Right" { id "core.forward" }
+    "Cmd+E" { id "core.edit" }
+    "Cmd+Shift+E" { id "core.open.editor.here" }
+    "Cmd+Shift+T" { id "core.open.terminal.here" }
+    "Right" { id "core.open" }
+    "Left" { id "core.go.up" }
+    "Return" { id "core.rename" }
+}
